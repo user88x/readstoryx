@@ -1,2 +1,2 @@
-# iotx
-Fetch sensor data from nodemcu and plot
+# readstoryx
+read story on google assistant

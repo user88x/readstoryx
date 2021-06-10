@@ -1,26 +1,27 @@
 {
-  "name": "iotx",
+  "name": "readstoryx",
   "version": "1.0.0",
   "description": "Fetch sensor data from nodemcu and plot",
-  "main": "index.js",
+  "main": "saveSvgAsPng.js",
+  "dependencies": {
+    "actions-on-google": "^2.14.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/user88x/iotx.git"
+    "url": "git+https://github.com/user88x/readstoryx.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/user88x/iotx/issues"
+    "url": "https://github.com/user88x/readstoryx/issues"
   },
-  "homepage": "https://github.com/user88x/iotx#readme",
-  "dependencies": {
-    "actions-on-google": "^2.14.0",
-    "cors": "^2.8.5",
-    "express": "^4.17.1",
-    "request": "^2.88.2"
-  }
+  "homepage": "https://github.com/user88x/readstoryx#readme"
 }
